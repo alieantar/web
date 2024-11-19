@@ -2,32 +2,28 @@
     display: flex;
     grid-column-start: 3;
     grid-column-end: 11;
-    grid-row-start: 4;
+    grid-row-start: 2;
+    grid-row-end: -1;
+}
+
+
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: calc(1vw + 0.5vh);
+    color: white;
 }
 
 .link{
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: calc(0.6vw + 1vh);
+    font-size: calc(1vw + 0.5vh);
     color: #fbb03b;
 }
 
-@media  all and (min-width: 580px)
-{
-    .intro{
-        display: flex;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-    .summary{
-        grid-row-start: 4;
-        grid-row-end: 8;
-        grid-column-start: 3;
-        grid-column-end: 12;
-    }
-
-    .summary p{
-        font-size: calc(0.7vw + 0.7vh);
-    }
+.links{
+    display: flex;
+    gap: 30px;
 }
