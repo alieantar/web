@@ -1,8 +1,8 @@
 .projects{
     display: flex;
     grid-column-start: 3;
-    grid-column-end: 11;
-    grid-row-start: 2;
+    grid-column-end: 13;
+    grid-row-start: 1;
     grid-row-end: -1;
 }
 
