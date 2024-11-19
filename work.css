@@ -2,7 +2,7 @@
     display: flex;
     grid-column-start: 3;
     grid-column-end: 11;
-    grid-row-start: 2;
+    grid-row-start: 1;
     grid-row-end: -1;
 }
 
@@ -11,7 +11,7 @@ p{
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: calc(1vw + 0.5vh);
+    font-size: calc(1vw + 1vh);
     color: white;
 }
 
@@ -19,11 +19,24 @@ p{
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: calc(1vw + 0.5vh);
+    font-size: calc(1vw + 1vh);
     color: #fbb03b;
 }
 
 .links{
     display: flex;
     gap: 30px;
+}
+
+@media all and (min-width: 580px)
+{
+    .projects{
+        grid-row-start: 2;
+    }
+    p{
+        font-size: calc(1vw + 0.7vh);
+    }
+    .link{
+        font-size: calc(1vw + 0.7vh);
+    }
 }
