@@ -1,5 +1,7 @@
 body{
     background-image: url("Assets/LightHouseRender2_Cycles_S.jpg");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
 }
 
 .container{
@@ -11,6 +13,8 @@ body{
     align-items: center;
     gap:10px;
     background-color: #00000090;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
 }
 
 .nav-bar{
