@@ -1,0 +1,52 @@
+.projects{
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: -1;
+    height: 90vh;
+
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: calc(1vw + 1vh);
+    color: white;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: calc(1vw + 1vh);
+    color: white;
+}
+
+.link{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: calc(1vw + 1vh);
+    color: #fbb03b;
+}
+
+.links{
+    display: flex;
+    gap: 30px;
+}
+@media all and (min-width: 580px){
+    .projects{
+        grid-row-start: 3;
+    }
+    h2{
+        font-size: calc(0.7vw + 0.7vh);
+    }
+    p{
+        font-size: calc(0.7vw + 0.7vh);
+    }
+    .link{
+        font-size: calc(0.7vw + 0.7vh);
+    }
+}

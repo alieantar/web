@@ -1,0 +1,65 @@
+body{
+    background-image: url("Assets/LightHouseRender2_Cycles_S.jpg");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap:10px;
+    background-color: #00000090;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+}
+
+.nav-bar{
+    display: flex;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    justify-content: center;
+    max-height: 10vh;
+    gap: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: calc(1vw + 1vh);
+}
+
+.nav-bar a{
+    color: white;
+}
+
+.footer{
+    grid-row-start:10;
+    grid-row-end: -1;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;   
+    font-style: normal;
+    font-size: calc(0.8vw + 0.8vh);
+    color: white;
+}
+
+@media all and (min-width: 580px)
+{
+    body{
+        background-image: url("Assets/LightHouseRender2_Cycles.jpg");
+    }
+    .nav-bar{
+        font-size: calc(1vw + 1vh);
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+}
+
+
+
+
